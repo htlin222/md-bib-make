@@ -3,30 +3,32 @@
 
 ## 前置作業
 系統：Mac OS
+
 需要安裝的項目：
-## [Zotero | Your personal research assistant](https://www.zotero.org/)
+### [Zotero Your personal research assistant](https://www.zotero.org/)
 ```shell
+# 可以直接從官網下載安裝檔，或用：
 brew install --cask zotero
 ```
-### Zotero需要安裝的plugin
+#### Zotero需要安裝的plugin:
 [Better BibTeX for Zotero :: Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/)
 
 ### [Raycast](https://www.raycast.com/)
 ```shell
 brew install --cask raycast
 ```
-#### Raycast 需要安裝的plugin
+#### Raycast 需要安裝的plugin:
 [reckoning-dev/zotero - Raycast Store](https://www.raycast.com/reckoning-dev/zotero)
-#### [Make - GNU Project - Free Software Foundation](https://www.gnu.org/software/make/)
+### [Make - GNU Project - Free Software Foundation](https://www.gnu.org/software/make/)
 ```shell
 brew install make
 ```
-#### [Pandoc - About pandoc](https://pandoc.org/)
+### [Pandoc - About pandoc](https://pandoc.org/)
 ```shell
 brew install pandoc
 ```
-## 使用方法
-### Zotero設定：(以英文版說明)
+
+## Zotero設定：(以英文版說明)
 * `prefereces`>`Better BibTex`>`Citation Keys`>`Citation Keys format`
 > auth.lower + year+ veryshorttitle.lower
 
@@ -37,9 +39,9 @@ brew install pandoc
 
 ![image_22-08-27_16_18_27](https://i.imgur.com/zrvgZWz.png)
 
-#### 刷新所有citation key
+### 刷新所有citation key
 ![image_22-08-27_16_17_31](https://i.imgur.com/HK6WEjv.png)
-#### 輸出成兩種格式：Better BibLaTex, Better CSL JSON
+### 輸出成兩種格式：Better BibLaTex, Better CSL JSON
 ![image_22-08-27_16_19_14](https://i.imgur.com/PhWIGIn.png)
 * `File`>`Export Library`>`Format`>`Better BibLaTex`
 > 在Translator Options 選 Keep updated
@@ -69,7 +71,7 @@ brew install pandoc
 > 選你要的，例如我選AMA，對本次操作無關。
 * 為zotero extension 設定一個快鍵，例如我用`ctrl+/`
 ## 如何使用
-## 複製這個repo
+* 複製這個repo
 * 編輯main.md這個檔案
 ### 如何加入citation?
 * 叫出raycast
