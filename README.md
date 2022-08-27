@@ -29,10 +29,14 @@ brew install pandoc
 ### Zotero設定：(以英文版說明)
 * `prefereces`>`Better BibTex`>`Citation Keys`>`Citation Keys format`
 > auth.lower + year+ veryshorttitle.lower
+
 ![image_22-08-27_16_18_03](https://i.imgur.com/1KIdKxl.png)
+
 * `prefereces`>`Better BibTex`>`Export`>`Quick Copy`>`Quick Copy Format`>
 > Pandoc Citation
+
 ![image_22-08-27_16_18_27](https://i.imgur.com/zrvgZWz.png)
+
 #### 刷新所有citation key
 ![image_22-08-27_16_17_31](https://i.imgur.com/HK6WEjv.png)
 #### 輸出成兩種格式：Better BibLaTex, Better CSL JSON
