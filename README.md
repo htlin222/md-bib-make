@@ -1,5 +1,7 @@
 ## 簡介
-利用Raycast, Zotero實現CWYW
+Cite While You Write, 簡稱CWYW，顧名思意就是讓我們在寫作時可以即時引用，並且生成引用條目bibliography，如果你是word或open office的使用者，可以很簡單地裝好zotero的外掛即可以開始使用。如果是R語言的使用者，Rstuido也提供完整的寫作環境。但如果是日常習慣以markdown來寫作，想實現CWYW就不是一件簡單的事。
+
+從兩個層面思考：(1)一個可以直接叫出如同zotero picker視窗的替代軟體，插入citation key，這裡使用Raycast (2)利用pandoc，把bib檔匯入。
 
 ## 前置作業
 系統：Mac OS
@@ -15,6 +17,7 @@ brew install --cask zotero
 
 ### [Raycast](https://www.raycast.com/)
 ```shell
+# 可以直接從官網下載安裝檔，或用：
 brew install --cask raycast
 ```
 #### Raycast 需要安裝的plugin:
