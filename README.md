@@ -92,4 +92,13 @@ BIBLIO=~/Zotero/zotero_main.bib
 ```shell
 make
 ```
+輸出畫面應該會是：
+```shell
+make
+pandoc --from=markdown -s --bibliography ~/Zotero/zotero_main.bib --citeproc --csl=american-medical-association.csl --metadata link-citations=true main.md --output=main_output.docx
+rm -rf main_output.md
+pandoc --from=markdown -s --bibliography ~/Zotero/zotero_main.bib --citeproc --csl=american-medical-association.csl --metadata link-citations=true main.md --to=gfm --output=main_output.md
+完成啦，讚的
+open .
+```
 你就會得到 `main_output.md`, `main_output.docx`這兩個檔案
